@@ -3,9 +3,4 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-
-    <!-- Customize your color here. -->
-    <color name="colorTitleText">#999999</color>
-    <color name="colorTitleBackground">#FFFFFF</color>
-    <color name="colorPageBackground">#F8F8F8</color>
 </resources>

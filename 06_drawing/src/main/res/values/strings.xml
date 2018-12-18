@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HenCoderPlus06-Drawing</string>
+    <string name="app_name">06-Drawing</string>
     <string name="title_dashboard_view">DashboardView</string>
     <string name="title_pie_chart_view">PieChartView</string>
     <string name="title_avatar_view">AvatarView</string>
