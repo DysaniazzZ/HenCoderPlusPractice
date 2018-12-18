@@ -1,1 +1,1 @@
-include ':06_drawing'
+include ':06_drawing', ':07_drawing2'
