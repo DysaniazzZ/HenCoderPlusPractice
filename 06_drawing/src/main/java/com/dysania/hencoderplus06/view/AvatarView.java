@@ -35,6 +35,7 @@ public class AvatarView extends View {
 
     {
         mAvatarBitmap = getAvatar((int) AVATAR_RADIUS * 2);
+//        setLayerType(LAYER_TYPE_HARDWARE, null);    // 开启硬件加速及离屏缓冲（会把整个 View 区域作为缓冲区，建议当只有叠加绘制时使用）
     }
 
     public AvatarView(Context context) {
@@ -71,7 +72,7 @@ public class AvatarView extends View {
 
         canvas.drawOval(mEdgeArea, mPaint);
 
-        int savedLayer = canvas.saveLayer(mSavedArea, mPaint);
+        int savedLayer = canvas.saveLayer(mSavedArea, mPaint);  // 离屏缓冲
         canvas.drawOval(mSavedArea, mPaint);
         mPaint.setXfermode(mXfermode);
         canvas.drawBitmap(mAvatarBitmap, mLeft, mTop, mPaint);
