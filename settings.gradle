@@ -1,1 +1,1 @@
-include ':06_drawing', ':07_drawing2', ':08_animation', ':09_drawing3', ':10_layout'
+include ':06_drawing', ':07_drawing2', ':08_animation', ':09_drawing3', ':10_layout', ':12_scalable'
